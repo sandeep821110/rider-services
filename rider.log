@@ -1,0 +1,212 @@
+2026-06-18 05:30:38 [[32minfo[39m]: Redis connected {
+  "service": "rider-service"
+}
+2026-06-18 05:30:38 [[32minfo[39m]: Redis ready {
+  "service": "rider-service"
+}
+2026-06-18 05:30:41 [[32minfo[39m]: MongoDB connected {
+  "service": "rider-service"
+}
+2026-06-18 05:30:41 [[32minfo[39m]: RabbitMQ connected {
+  "service": "rider-service"
+}
+2026-06-18 05:30:41 [[32minfo[39m]: Rider service running on port 7011 {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/update-location [33m401[0m 31.915 ms - 54[0m
+[0mGET /api/riders/admin/list [33m401[0m 1.508 ms - 63[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.790 ms - 63[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.589 ms - 63[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.835 ms - 63[0m
+[0mGET /api/riders/admin/list [32m200[0m 128.463 ms - 516[0m
+[0mGET /api/riders/admin/list [36m304[0m 72.782 ms - -[0m
+2026-06-18 05:32:12 [[32minfo[39m]: Rider approved: osandeepji@gmail.com {
+  "service": "rider-service"
+}
+[0mPATCH /api/riders/admin/approve/6a33343a6453cf6bfe09edab [32m200[0m 95.784 ms - 553[0m
+[0mGET /api/riders/admin/list [32m200[0m 69.022 ms - 516[0m
+2026-06-18 05:32:16 [[32minfo[39m]: OTP generated for rider email: test@example.com {
+  "service": "rider-service"
+}
+2026-06-18 05:32:16 [[32minfo[39m]: OTP email queued for rider: test@example.com {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/send-otp [32m200[0m 75.273 ms - 73[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.573 ms - 63[0m
+2026-06-18 05:32:30 [[32minfo[39m]: OTP generated for rider email: osandeepji@gmail.com {
+  "service": "rider-service"
+}
+2026-06-18 05:32:30 [[32minfo[39m]: OTP email queued for rider: osandeepji@gmail.com {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/send-otp [32m200[0m 80.631 ms - 73[0m
+2026-06-18 05:32:49 [[32minfo[39m]: OTP verified successfully for rider email: osandeepji@gmail.com {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/verify-otp [32m200[0m 98.777 ms - 582[0m
+[0mGET /api/riders/my-orders [36m304[0m 80.861 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 446.547 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 100.068 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 87.628 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 133.574 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 624.806 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 638.741 ms - 45[0m
+[0mPOST /api/riders/pay-deposit [32m200[0m 76.782 ms - 151[0m
+[0mPOST /api/riders/update-location [32m200[0m 113.166 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 117.867 ms - 45[0m
+2026-06-18 05:33:06 [[32minfo[39m]: OTP generated for rider email: testflow@example.com {
+  "service": "rider-service"
+}
+2026-06-18 05:33:06 [[32minfo[39m]: OTP email queued for rider: testflow@example.com {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/send-otp [32m200[0m 89.503 ms - 73[0m
+2026-06-18 05:33:14 [[32minfo[39m]: OTP verified successfully for rider email: testflow@example.com {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/verify-otp [32m200[0m 97.337 ms - 308[0m
+[0mPOST /api/riders/update-location [32m200[0m 96.156 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 75.984 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 85.085 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 80.612 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 82.066 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 128.894 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 1403.804 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 1409.780 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 1422.024 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 76.580 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 880.700 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 1364.623 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 111.977 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 80.751 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 77.676 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 78.950 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 69.768 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 71.722 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 185.643 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 86.776 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 89.809 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 88.332 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 71.892 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 85.750 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 71.175 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 79.663 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 71.392 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 85.006 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 74.473 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 126.444 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 76.356 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 66.954 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 67.724 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 64.415 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 70.373 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 70.867 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 64.668 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 91.973 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 62.834 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 71.246 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 75.882 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 70.920 ms - 45[0m
+[0mGET /api/riders/my-orders?status=assigned [32m200[0m 161.561 ms - 38[0m
+[0mGET /api/riders/my-orders?status=picked_up [32m200[0m 125.692 ms - 38[0m
+[0mGET /api/riders/my-orders?status=out_for_delivery [32m200[0m 72.986 ms - 38[0m
+[0mGET /api/riders/my-orders?status=delivered [32m200[0m 133.417 ms - 38[0m
+[0mPOST /api/riders/update-location [32m200[0m 70.740 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 67.117 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 69.019 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 73.801 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 75.602 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 72.569 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 74.942 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 74.253 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 67.626 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 68.289 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 663.501 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 696.930 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 81.742 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 248.275 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 87.519 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 105.366 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 71.312 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 81.002 ms - 45[0m
+2026-06-18 05:54:28 [[32minfo[39m]: OTP generated for rider email: finaltest@example.com {
+  "service": "rider-service"
+}
+2026-06-18 05:54:28 [[32minfo[39m]: OTP email queued for rider: finaltest@example.com {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/send-otp [32m200[0m 95.613 ms - 73[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.219 ms - 63[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 79.761 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 77.055 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 96.236 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 76.880 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 88.305 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 94.387 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 72.048 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 80.914 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 86.023 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 90.960 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 94.831 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 90.348 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 74.434 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 96.788 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 70.415 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 95.723 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 81.820 ms - 515[0m
+[0mGET /api/riders/admin/list [36m304[0m 71.625 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 79.250 ms - -[0m
+[0mGET /api/riders/admin/list [36m304[0m 74.187 ms - -[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 88.299 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 73.552 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 84.414 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 79.405 ms - 45[0m
+[0mGET /api/riders/my-orders?status=delivered [36m304[0m 598.655 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 975.019 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 91.289 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 80.712 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 77.554 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 235.225 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 468.577 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 67.713 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 85.653 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 72.795 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 323.394 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 793.084 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 1162.499 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 88.059 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 67.425 ms - 45[0m
+[0mGET /api/riders/admin/list [32m200[0m 72.827 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 70.668 ms - -[0m
+[0mGET /api/riders/my-orders [36m304[0m 73.548 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 72.478 ms - 45[0m
+[0mGET /api/riders/my-orders [36m304[0m 76.618 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 80.282 ms - 45[0m
+2026-06-18 06:04:58 [[32minfo[39m]: Order ORD96502907XEJ8HJ84 assigned to rider sabdeeo {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/admin/assign-order [32m200[0m 456.790 ms - 1343[0m
+2026-06-18 06:05:05 [[32minfo[39m]: Order ORD961317506SS09FHR assigned to rider sabdeeo {
+  "service": "rider-service"
+}
+[0mPOST /api/riders/admin/assign-order [32m200[0m 371.964 ms - 1343[0m
+[0mGET /api/riders/my-orders [32m200[0m 210.904 ms - 1615[0m
+[0mGET /api/riders/my-orders [36m304[0m 202.921 ms - -[0m
+[0mPOST /api/riders/update-location [32m200[0m 79.494 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 76.364 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 78.490 ms - 45[0m
+[0mPOST /api/riders/update-location [32m200[0m 87.299 ms - 45[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [32m200[0m 152.310 ms - 1270[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [36m304[0m 144.968 ms - -[0m
+[0mPATCH /api/riders/my-orders/6a27d823269815449a5546ae/status [32m200[0m 173.972 ms - 190[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [32m200[0m 156.443 ms - 1271[0m
+[0mPATCH /api/riders/my-orders/6a27d823269815449a5546ae/status [32m200[0m 167.869 ms - 204[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [32m200[0m 152.293 ms - 1278[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.549 ms - 63[0m
+[0mGET /api/riders/admin/list [33m401[0m 0.683 ms - 63[0m
+[0mGET /api/riders/admin/list [32m200[0m 81.693 ms - 531[0m
+[0mGET /api/riders/admin/list [36m304[0m 86.257 ms - -[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [36m304[0m 192.853 ms - -[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [36m304[0m 156.730 ms - -[0m
+[0mGET /api/riders/my-orders/6a27d823269815449a5546ae [36m304[0m 162.338 ms - -[0m
+[0mPOST /api/riders/my-orders/6a27d823269815449a5546ae/request-delivery-otp [33m404[0m 1.897 ms - 114[0m

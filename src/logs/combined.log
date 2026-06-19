@@ -1,0 +1,439 @@
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:29:53"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:29:53"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:29:55"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:29:55"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:29:55"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:32:11"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:32:11"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:32:15"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:32:15"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:32:15"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:32:23"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:32:23"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:32:24"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:32:24"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:32:24"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:32:40"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:32:40"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:32:41"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:32:41"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:32:41"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:32:48"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:32:48"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:32:49"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:32:49"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:32:49"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:32:55"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:32:55"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:32:56"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:32:56"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:32:56"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-17 07:33:46"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:39:21"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:39:21"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:39:25"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:39:25"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:39:25"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:39:30"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:39:30"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:39:31"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:39:31"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:39:31"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:39:37"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:39:37"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:39:39"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:39:39"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:39:39"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:47:50"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:47:50"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:47:54"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:47:54"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:47:54"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:50:12"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:50:12"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:50:15"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:50:15"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:50:15"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-17 07:50:32"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-17 07:50:32"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-17 07:50:33"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-17 07:50:33"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-17 07:50:33"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 04:54:32"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 04:54:32"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 04:54:33"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 04:54:33"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 04:54:33"}
+{"level":"info","message":"OTP generated for rider email: test@example.com","service":"rider-service","timestamp":"2026-06-18 05:11:33"}
+{"level":"info","message":"OTP email queued for rider: test@example.com","service":"rider-service","timestamp":"2026-06-18 05:11:33"}
+{"code":"ECONNABORTED","expected":32,"length":32,"level":"error","message":"Unhandled error: request aborted","received":0,"service":"rider-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2026-06-18 05:19:04","type":"request.aborted"}
+{"code":"ECONNABORTED","expected":32,"length":32,"level":"error","message":"Unhandled error: request aborted","received":0,"service":"rider-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2026-06-18 05:19:34","type":"request.aborted"}
+{"code":"ECONNABORTED","expected":32,"length":32,"level":"error","message":"Unhandled error: request aborted","received":0,"service":"rider-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2026-06-18 05:20:04","type":"request.aborted"}
+{"code":"ECONNABORTED","expected":32,"length":32,"level":"error","message":"Unhandled error: request aborted","received":0,"service":"rider-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2026-06-18 05:20:08","type":"request.aborted"}
+{"code":"ECONNABORTED","expected":28,"length":28,"level":"error","message":"Unhandled error: request aborted","received":0,"service":"rider-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2026-06-18 05:20:08","type":"request.aborted"}
+{"code":"ECONNABORTED","expected":32,"length":32,"level":"error","message":"Unhandled error: request aborted","received":0,"service":"rider-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2026-06-18 05:20:08","type":"request.aborted"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 05:21:22"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 05:21:22"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 05:21:24"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 05:21:24"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 05:21:24"}
+{"level":"info","message":"OTP generated for rider email: test@example.com","service":"rider-service","timestamp":"2026-06-18 05:22:39"}
+{"level":"info","message":"OTP email queued for rider: test@example.com","service":"rider-service","timestamp":"2026-06-18 05:22:39"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:25:08"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:25:08"}
+{"level":"info","message":"OTP verified successfully for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:25:28"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:25:44"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:25:44"}
+{"level":"info","message":"OTP verified successfully for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:26:01"}
+{"level":"info","message":"New rider registered: osandeepji@gmail.com (pending approval)","service":"rider-service","timestamp":"2026-06-18 05:26:42"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 05:30:38"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 05:30:38"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 05:30:41"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 05:30:41"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 05:30:41"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 05:31:30"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 05:31:30"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 05:31:31"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 05:31:31"}
+{"level":"info","message":"Rider approved: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:32:12"}
+{"level":"info","message":"OTP generated for rider email: test@example.com","service":"rider-service","timestamp":"2026-06-18 05:32:16"}
+{"level":"info","message":"OTP email queued for rider: test@example.com","service":"rider-service","timestamp":"2026-06-18 05:32:16"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:32:30"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:32:30"}
+{"level":"info","message":"OTP verified successfully for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-18 05:32:49"}
+{"level":"info","message":"OTP generated for rider email: testflow@example.com","service":"rider-service","timestamp":"2026-06-18 05:33:06"}
+{"level":"info","message":"OTP email queued for rider: testflow@example.com","service":"rider-service","timestamp":"2026-06-18 05:33:06"}
+{"level":"info","message":"OTP verified successfully for rider email: testflow@example.com","service":"rider-service","timestamp":"2026-06-18 05:33:14"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 05:45:16"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 05:45:16"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 05:45:24"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 05:45:24"}
+{"level":"info","message":"OTP generated for rider email: finaltest@example.com","service":"rider-service","timestamp":"2026-06-18 05:54:28"}
+{"level":"info","message":"OTP email queued for rider: finaltest@example.com","service":"rider-service","timestamp":"2026-06-18 05:54:28"}
+{"level":"info","message":"Order ORD96502907XEJ8HJ84 assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-18 06:04:58"}
+{"level":"info","message":"Order ORD961317506SS09FHR assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-18 06:05:05"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:18:48"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:18:48"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:18:49"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:18:50"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 06:18:50"}
+{"level":"info","message":"Delivery OTP generated for order: 6a27d823269815449a5546ae","service":"rider-service","timestamp":"2026-06-18 06:20:38"}
+{"level":"info","message":"Delivery OTP email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-18 06:20:38"}
+{"level":"info","message":"Delivery OTP verified successfully for order: 6a27d823269815449a5546ae","service":"rider-service","timestamp":"2026-06-18 06:21:03"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:35:17"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:35:17"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:35:18"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:35:19"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 06:35:19"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:38:36"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:38:36"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:38:38"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:38:38"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:39:52"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:39:52"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:40:22"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:40:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:41:36"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:41:36"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:41:37"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:41:37"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:42:49"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:42:49"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:42:51"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:42:51"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 06:42:51"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 06:46:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 06:46:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 06:46:46"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 06:46:46"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 06:46:46"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-18 06:59:56"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:04:46"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:04:46"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:04:53"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:04:53"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:05:15"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:05:15"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:05:16"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:05:16"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:06:03"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:06:03"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:06:04"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:06:04"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:06:32"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:06:32"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:06:42"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:06:42"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:07:02"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:07:02"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:07:03"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:07:03"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:08:54"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:08:54"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:08:55"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:08:55"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 07:08:55"}
+{"level":"info","message":"Order ORD95183131JKKO9BU2 assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-18 07:10:55"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:13:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:13:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:13:47"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:13:47"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:13:59"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:13:59"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:14:00"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:14:00"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:14:07"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:14:07"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:14:08"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:14:08"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:14:14"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:14:14"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:14:15"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:14:15"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:14:51"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:14:51"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:14:53"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:14:53"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:15:00"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:15:00"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:15:01"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:15:01"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:15:31"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:15:31"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:15:32"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:15:32"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 07:15:32"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:21:27"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:21:27"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:21:28"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:21:29"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:22:52"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:22:52"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:22:53"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:22:53"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 07:22:53"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:26:16"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:26:16"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:26:18"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:26:18"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:28:06"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:28:06"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:28:09"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:28:09"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:28:32"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:28:32"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:28:32"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:28:32"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 07:28:32"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:35:34"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:35:34"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:35:35"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:35:35"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 07:35:35"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-18 07:58:02"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 07:59:27"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 07:59:27"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 07:59:28"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 07:59:29"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 07:59:29"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 08:02:18"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 08:02:18"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 08:02:21"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 08:02:21"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 08:02:31"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 08:02:31"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 08:02:32"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 08:02:32"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 08:02:38"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 08:02:38"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 08:02:39"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 08:02:39"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 08:02:57"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 08:02:57"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 08:02:58"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 08:02:58"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 08:03:36"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 08:03:36"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 08:03:37"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 08:03:37"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 08:03:37"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-18 08:19:55"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-18 19:43:19"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-18 19:43:19"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-18 19:43:20"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-18 19:43:20"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-18 19:43:20"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 20:45:43"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 20:45:43"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 20:45:45"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 20:45:46"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 20:45:46"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-19 21:08:21"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:11:13"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:11:13"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:11:14"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:11:14"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:11:14"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:16:39"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:16:39"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:16:40"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:16:40"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:16:40"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:16:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:16:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:16:46"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:16:46"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:16:46"}
+{"level":"info","message":"Payment link created for order ORD95183131JKKO9BU2: https://rzp.io/rzp/89XzeU4s","service":"rider-service","timestamp":"2026-06-19 21:21:44"}
+{"level":"info","message":"Payment collected for order ORD95183131JKKO9BU2: cash by rider 6a33343a6453cf6bfe09edab","service":"rider-service","timestamp":"2026-06-19 21:22:40"}
+{"expected":12654,"length":12654,"level":"error","limit":10240,"message":"Unhandled error: request entity too large","service":"rider-service","stack":"PayloadTooLargeError: request entity too large\n    at readStream (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:163:17)\n    at getRawBody (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:116:12)\n    at read (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\body-parser\\lib\\read.js:79:3)\n    at jsonParser (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\body-parser\\lib\\types\\json.js:138:5)\n    at Layer.handle [as handle_request] (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\morgan\\index.js:170:5)","timestamp":"2026-06-19 21:23:01","type":"entity.too.large"}
+{"expected":12654,"length":12654,"level":"error","limit":10240,"message":"Unhandled error: request entity too large","service":"rider-service","stack":"PayloadTooLargeError: request entity too large\n    at readStream (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:163:17)\n    at getRawBody (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\raw-body\\index.js:116:12)\n    at read (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\body-parser\\lib\\read.js:79:3)\n    at jsonParser (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\body-parser\\lib\\types\\json.js:138:5)\n    at Layer.handle [as handle_request] (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (C:\\Users\\okgoo\\Desktop\\protin\\backend\\rider-services\\node_modules\\morgan\\index.js:170:5)","timestamp":"2026-06-19 21:23:03","type":"entity.too.large"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:23:39"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:23:40"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:23:40"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:23:40"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:23:40"}
+{"level":"info","message":"Delivery OTP generated for order: 6a27d46f269815449a55464b","service":"rider-service","timestamp":"2026-06-19 21:24:30"}
+{"level":"info","message":"Delivery OTP email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:24:30"}
+{"level":"info","message":"Delivery OTP verified successfully for order: 6a27d46f269815449a55464b","service":"rider-service","timestamp":"2026-06-19 21:24:58"}
+{"level":"info","message":"Delivery confirmed email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:24:58"}
+{"level":"info","message":"Order ORD10248875PGR41LDJ assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-19 21:27:10"}
+{"level":"info","message":"Order ORD783297830KVNOW0R assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-19 21:27:11"}
+{"level":"info","message":"OTP generated for rider email: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:27:29"}
+{"level":"info","message":"OTP email queued for rider: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:27:29"}
+{"level":"info","message":"OTP verified successfully for rider email: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:27:51"}
+{"level":"info","message":"OTP generated for rider email: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:29:03"}
+{"level":"info","message":"OTP email queued for rider: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:29:03"}
+{"level":"info","message":"OTP verified successfully for rider email: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:29:35"}
+{"level":"info","message":"New rider registered: sandeep202695@gmail.com (pending approval)","service":"rider-service","timestamp":"2026-06-19 21:30:11"}
+{"level":"info","message":"Rider approved: sandeep202695@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:30:21"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:34:14"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:34:14"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:34:16"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:34:16"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:34:16"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:34:20"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:34:20"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:34:21"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:34:22"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:34:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:36:01"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:36:01"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:36:02"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:36:02"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:36:02"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:40:23"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:40:23"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:40:24"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:40:24"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 21:40:24"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:40:48"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:40:48"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:40:49"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:40:49"}
+{"level":"info","message":"Order ORD94145945ERCGML81 assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-19 21:50:03"}
+{"level":"info","message":"Order ORD9628450115SDKLNZ assigned to rider gorider","service":"rider-service","timestamp":"2026-06-19 21:50:21"}
+{"level":"info","message":"Order ORD36779053AAQVE216 assigned to rider gorider","service":"rider-service","timestamp":"2026-06-19 21:50:26"}
+{"level":"info","message":"Order ORD94396246Z3O510HZ assigned to rider gorider","service":"rider-service","timestamp":"2026-06-19 21:50:48"}
+{"level":"info","message":"Order ORD85017106EA4E87VZ assigned to rider gorider","service":"rider-service","timestamp":"2026-06-19 21:51:25"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 21:51:42"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 21:51:42"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 21:51:43"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 21:51:43"}
+{"level":"info","message":"Order ORD87798568Y5WZCZL4 assigned to rider gorider","service":"rider-service","timestamp":"2026-06-19 21:55:03"}
+{"level":"info","message":"Delivery confirmed email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-19 21:55:35"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:01:04"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:01:05"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:01:05"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:01:06"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:01:06"}
+{"level":"info","message":"Razorpay order created for order ORD94396246Z3O510HZ: order_T3YcsRFMhyVFR0","service":"rider-service","timestamp":"2026-06-19 22:04:28"}
+{"level":"info","message":"Razorpay order created for order ORD94396246Z3O510HZ: order_T3YgiMCiIVeuDg","service":"rider-service","timestamp":"2026-06-19 22:08:05"}
+{"level":"info","message":"Payment collected for order ORD94396246Z3O510HZ: cash by rider 6a35678b7c1f2f9fe5bd3907","service":"rider-service","timestamp":"2026-06-19 22:08:47"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-19 22:22:19"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:26:38"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:26:38"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:26:39"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:26:39"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:26:39"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:37:54"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:37:54"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:37:55"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:37:55"}
+{"level":"info","message":"Payment collected for order ORD10248875PGR41LDJ: cash by rider 6a33343a6453cf6bfe09edab","service":"rider-service","timestamp":"2026-06-19 22:43:57"}
+{"level":"info","message":"Delivery confirmed email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-19 22:44:01"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:47:05"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:47:05"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:47:07"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:47:07"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:47:07"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:47:28"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:47:28"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:47:29"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:47:29"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:47:29"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:47:39"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:47:39"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:47:40"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:47:40"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:47:40"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:47:48"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:47:48"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:47:49"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:47:49"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:47:49"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:47:58"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:47:58"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:47:59"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:47:59"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:47:59"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:48:09"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:48:09"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:48:10"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:48:10"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:48:10"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:50:29"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:50:29"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:50:30"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:50:30"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:50:30"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:54:41"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:54:41"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:54:42"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:54:42"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:54:42"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:54:56"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:54:56"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:54:57"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:54:57"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:54:57"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:55:06"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:55:06"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:55:07"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:55:07"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:55:07"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:55:21"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:55:21"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:55:22"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:55:22"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:55:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:58:33"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:58:33"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:58:34"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:58:34"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:58:34"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:58:41"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:58:42"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:58:42"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:58:42"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:58:42"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:58:50"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:58:50"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:58:51"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:58:51"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:58:51"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:58:58"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:58:58"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:58:59"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:58:59"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:58:59"}
