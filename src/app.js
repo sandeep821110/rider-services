@@ -4,8 +4,9 @@ import helmet from "helmet";
 import morgan from "morgan";
 import dotenv from "dotenv";
 dotenv.config();
-import { connectDB } from "./config/db.js";
-import { connectRabbitMQ } from "./config/rabbitmq.js";
+import { connectDB, checkDBHealth } from "./config/db.js";
+import { connectRabbitMQ, checkRabbitMQHealth, isRabbitMQConnected, getRabbitMQStatus } from "./config/rabbitmq.js";
+import { checkRedisHealth, isRedisAvailable, getRedisStatus } from "./config/redis.js";
 import riderRoutes from "./routes/rider.routes.js";
 import logger from "./utils/logger.js";
 
@@ -30,8 +31,46 @@ app.use(cors({
 app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 app.use(express.json({ limit: '5mb' }));
 
-app.get("/health", (req, res) => {
-  res.json({ status: "OK", message: "Rider service is running" });
+app.get("/health", async (req, res, next) => {
+  try {
+    const dbHealth = checkDBHealth();
+    const redisHealth = await checkRedisHealth();
+    const rabbitMQHealth = await checkRabbitMQHealth();
+
+    const allHealthy = dbHealth.status === "healthy" && redisHealth.status === "healthy" && rabbitMQHealth.status === "healthy";
+    const overallStatus = allHealthy ? "healthy" : "degraded";
+
+    res.status(allHealthy ? 200 : 503).json({
+      status: overallStatus,
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+      services: {
+        mongodb: {
+          status: dbHealth.status,
+          message: dbHealth.message,
+          connected: dbHealth.connected,
+          host: dbHealth.host,
+          db: dbHealth.db,
+        },
+        redis: {
+          status: redisHealth.status,
+          message: redisHealth.message,
+          connected: redisHealth.connected,
+          available: isRedisAvailable(),
+          details: getRedisStatus(),
+        },
+        rabbitmq: {
+          status: rabbitMQHealth.status,
+          message: rabbitMQHealth.message,
+          connected: rabbitMQHealth.connected,
+          available: isRabbitMQConnected(),
+          details: getRabbitMQStatus(),
+        },
+      },
+    });
+  } catch (err) {
+    next(err);
+  }
 });
 
 app.use("/api/riders", riderRoutes);

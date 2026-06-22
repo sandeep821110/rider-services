@@ -5,48 +5,92 @@ import Rider from "../models/Rider.js";
 import Order from "../models/Order.js";
 import logger from "../utils/logger.js";
 import { generateOTP, verifyOTP, generateDeliveryOTP, verifyDeliveryOTP } from "../services/otp.service.js";
-import { sendOTPEmail, sendDeliveryOTPEmail, sendDeliveryConfirmedEmail } from "../services/email.service.js";
+import { sendOTPEmail, sendDeliveryOTPEmail, sendDeliveryConfirmedEmail, sendOutForDeliveryEmail } from "../services/email.service.js";
 import config from "../config/config.js";
-
-const RIDER_TRACKING_STATUS_MAP = {
-  assigned: "shipped",
-  picked_up: "shipped",
-  out_for_delivery: "out_for_delivery",
-  delivered: "delivered",
-};
-
-const notifyTrackingService = async (orderId, riderStatus, location) => {
-  const trackingStatus = RIDER_TRACKING_STATUS_MAP[riderStatus];
-  if (!trackingStatus) return null;
-
-  try {
-    const url = `${config.trackingServiceURL}/api/tracking/internal/order-status/${orderId}`;
-    const res = await fetch(url, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ status: trackingStatus, location, description: `Rider updated: ${riderStatus}` }),
-    });
-    const body = await res.json().catch(() => ({}));
-    if (!res.ok) {
-      console.warn(`[Tracking] Status update failed for order ${orderId}: ${body.message || res.status}`);
-      return null;
-    }
-    return body.data || null;
-  } catch (err) {
-    console.warn(`[Tracking] Cannot reach tracking service for order ${orderId}: ${err.message}`);
-    return null;
-  }
-};
 
 const fetchTrackingByOrderId = async (orderId) => {
   if (!orderId) return null;
   try {
     const url = `${config.trackingServiceURL}/api/tracking/internal/by-order-id/${orderId}`;
     const res = await fetch(url, { headers: { "Content-Type": "application/json" } });
-    if (!res.ok) return null;
+    if (!res.ok) {
+      const errBody = await res.text();
+      logger.warn(`fetchTrackingByOrderId returned ${res.status}: ${errBody}`);
+      return null;
+    }
     const body = await res.json();
     return body.data || null;
-  } catch {
+  } catch (err) {
+    logger.warn(`fetchTrackingByOrderId error for ${orderId}:`, err.message);
+    return null;
+  }
+};
+
+const NOTIFY_TRACKING_STATUS_MAP = {
+  picked_up: "shipped",
+  out_for_delivery: "out_for_delivery",
+  delivered: "delivered",
+};
+
+const createTrackingForOrder = async (order) => {
+  try {
+    const url = `${config.trackingServiceURL}/api/tracking/internal/create-from-order`;
+    const resp = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        orderId: order._id,
+        orderNumber: order.orderNumber || order.orderId,
+        userId: order.userId,
+        items: order.items,
+        shippingAddress: order.shippingAddress,
+        totalAmount: order.totalAmount,
+        paymentMethod: order.paymentMethod,
+      }),
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!resp.ok) {
+      const errBody = await resp.text();
+      logger.warn(`createTrackingForOrder rejected (${resp.status}) for order ${order._id}: ${errBody}`);
+      return null;
+    }
+    const body = await resp.json();
+    logger.info(`Auto-created tracking for order ${order._id}`);
+    return body.data || null;
+  } catch (err) {
+    logger.warn(`createTrackingForOrder error for order ${order._id}:`, err.message);
+    return null;
+  }
+};
+
+const notifyTrackingService = async (order, riderStatus) => {
+  const trackingStatus = NOTIFY_TRACKING_STATUS_MAP[riderStatus];
+  if (!trackingStatus) return null;
+  const orderId = order._id;
+  try {
+    let tracking = await fetchTrackingByOrderId(orderId);
+    if (!tracking || !tracking.trackingNumber) {
+      logger.warn(`No tracking found for order ${orderId} — auto-creating`);
+      tracking = await createTrackingForOrder(order);
+      if (!tracking || !tracking.trackingNumber) {
+        logger.warn(`Failed to auto-create tracking for order ${orderId}`);
+        return null;
+      }
+    }
+    const url = `${config.trackingServiceURL}/api/tracking/internal/by-tracking-number/${tracking.trackingNumber}/status`;
+    const resp = await fetch(url, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ status: trackingStatus }),
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!resp.ok) {
+      const errBody = await resp.text();
+      logger.warn(`Tracking notification rejected (${resp.status}) for order ${orderId}: ${errBody}`);
+    }
+    return tracking;
+  } catch (err) {
+    logger.warn(`Tracking notification failed for order ${orderId}:`, err.message);
     return null;
   }
 };
@@ -523,14 +567,43 @@ export const riderUpdateDeliveryStatus = async (req, res) => {
 
     order.riderStatus = status;
 
+    try {
+      const trackingData = await notifyTrackingService(order, status);
+      if (trackingData?.trackingNumber && !order.trackingNumber) {
+        order.trackingNumber = trackingData.trackingNumber;
+      }
+    } catch (notifyErr) {
+      logger.error(`Tracking notification failed for order ${order._id}:`, notifyErr.message);
+    }
+
     if (status === "delivered") {
       order.orderStatus = "DELIVERED";
       await Rider.findByIdAndUpdate(riderId, { $inc: { totalDeliveries: 1 } });
     }
 
-    await order.save();
+    if (status === "out_for_delivery") {
+      const rider = await Rider.findById(riderId).select("name phone vehicleType").lean();
+      const customerEmail = order.shippingAddress?.email || order.email || order.shippingAddress?.phoneNumber;
+      if (customerEmail) {
+        sendOutForDeliveryEmail({
+          email: customerEmail,
+          customerName: order.shippingAddress?.fullName,
+          orderNumber: order.orderNumber,
+          orderId: order._id,
+          items: order.items,
+          totalAmount: order.totalAmount,
+          shippingAddress: order.shippingAddress,
+          trackingNumber: order.trackingNumber,
+          riderName: rider?.name,
+          riderPhone: rider?.phone,
+          riderVehicle: rider?.vehicleType,
+        }).catch(err => logger.error("Failed to send out-for-delivery email:", err.message));
+      } else {
+        logger.warn(`No customer email found for order ${order._id} — skipping out-for-delivery email`);
+      }
+    }
 
-    notifyTrackingService(order._id, status, order.shippingAddress?.city);
+    await order.save();
 
     res.json({
       success: true,
@@ -538,6 +611,7 @@ export const riderUpdateDeliveryStatus = async (req, res) => {
       order: {
         _id: order._id,
         orderNumber: order.orderNumber,
+        trackingNumber: order.trackingNumber,
         riderStatus: order.riderStatus,
         orderStatus: order.orderStatus,
       },
@@ -677,8 +751,6 @@ export const riderVerifyDeliveryOtp = async (req, res) => {
     order.deliveredAt = new Date();
     await order.save();
 
-    notifyTrackingService(order._id, "delivered", order.shippingAddress?.city);
-
     await Rider.findByIdAndUpdate(riderId, { $inc: { totalDeliveries: 1 } });
 
     sendDeliveryConfirmedEmail({
@@ -734,8 +806,6 @@ export const riderDeliverWithSignature = async (req, res) => {
     order.deliverySignature = signature;
     order.deliveredAt = new Date();
     await order.save();
-
-    notifyTrackingService(order._id, "delivered", order.shippingAddress?.city);
 
     await Rider.findByIdAndUpdate(riderId, { $inc: { totalDeliveries: 1 } });
 
@@ -941,5 +1011,56 @@ export const riderUpdateLocation = async (req, res) => {
   } catch (err) {
     logger.error("Rider update location error:", err);
     res.status(500).json({ success: false, message: "Failed to update location" });
+  }
+};
+
+const deleteTrackingForOrder = async (orderId, trackingNumber) => {
+  try {
+    if (trackingNumber) {
+      const url = `${config.trackingServiceURL}/api/tracking/internal/by-tracking-number/${trackingNumber}`;
+      await fetch(url, { method: "DELETE", signal: AbortSignal.timeout(5000) });
+    } else {
+      const url = `${config.trackingServiceURL}/api/tracking/internal/by-order-id/${orderId}`;
+      await fetch(url, { method: "DELETE", signal: AbortSignal.timeout(5000) });
+    }
+  } catch (err) {
+    logger.warn(`deleteTrackingForOrder error for ${orderId}:`, err.message);
+  }
+};
+
+export const riderCancelDelivery = async (req, res) => {
+  try {
+    const riderId = req.rider.id;
+    const { orderId } = req.params;
+
+    const order = await Order.findOne({ _id: orderId, assignedRider: riderId });
+    if (!order) {
+      return res.status(404).json({ success: false, message: "Order not found or not assigned to you" });
+    }
+
+    if (order.riderStatus === "delivered") {
+      return res.status(400).json({ success: false, message: "Cannot cancel a delivered order" });
+    }
+
+    const trackingNumber = order.trackingNumber;
+    const orderObjectId = order._id;
+
+    await deleteTrackingForOrder(orderObjectId, trackingNumber);
+
+    order.assignedRider = null;
+    order.riderStatus = "unassigned";
+    order.trackingNumber = null;
+    order.assignedAt = null;
+    await order.save();
+
+    logger.info(`Delivery cancelled by rider for order ${order.orderNumber}`);
+
+    res.json({
+      success: true,
+      message: "Delivery cancelled, tracking deleted, order unassigned",
+    });
+  } catch (err) {
+    logger.error("Rider cancel delivery error:", err);
+    res.status(500).json({ success: false, message: "Failed to cancel delivery" });
   }
 };

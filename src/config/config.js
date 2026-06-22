@@ -17,6 +17,7 @@ const config = {
   emailUser: process.env.EMAIL_USER || process.env.EMAIL,
   emailPass: process.env.EMAIL_PASS,
   emailFrom: process.env.EMAIL_FROM || process.env.EMAIL_USER || process.env.EMAIL,
+  baseUrl: process.env.BASE_URL || process.env.FRONTEND_URL || "https://choosemood.com",
 };
 
 const requiredConfigs = ["mongoURI"];

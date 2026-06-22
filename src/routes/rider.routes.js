@@ -20,8 +20,9 @@ import {
   riderCollectPayment,
   riderGeneratePaymentLink,
   riderVerifyPayment,
+  riderCancelDelivery,
 } from "../controllers/rider.controller.js";
-import { authenticate, requireAdmin } from "../middleware/auth.js";
+import { authenticate, requirePermission } from "../middleware/auth.js";
 
 const router = express.Router();
 
@@ -42,12 +43,13 @@ router.post("/my-orders/:orderId/collect-payment", authenticateRider, riderColle
 router.post("/my-orders/:orderId/generate-payment-link", authenticateRider, riderGeneratePaymentLink);
 router.post("/my-orders/:orderId/verify-payment", authenticateRider, riderVerifyPayment);
 router.post("/update-location", authenticateRider, riderUpdateLocation);
+router.post("/my-orders/:orderId/cancel", authenticateRider, riderCancelDelivery);
 
 // Admin routes
-router.get("/admin/list", authenticate, requireAdmin, adminGetRiders);
-router.patch("/admin/approve/:riderId", authenticate, requireAdmin, adminApproveRider);
-router.patch("/admin/reject/:riderId", authenticate, requireAdmin, adminRejectRider);
-router.patch("/admin/suspend/:riderId", authenticate, requireAdmin, adminSuspendRider);
-router.post("/admin/assign-order", authenticate, requireAdmin, adminAssignOrder);
+router.get("/admin/list", authenticate, requirePermission("riders:read"), adminGetRiders);
+router.patch("/admin/approve/:riderId", authenticate, requirePermission("riders:manage"), adminApproveRider);
+router.patch("/admin/reject/:riderId", authenticate, requirePermission("riders:manage"), adminRejectRider);
+router.patch("/admin/suspend/:riderId", authenticate, requirePermission("riders:manage"), adminSuspendRider);
+router.post("/admin/assign-order", authenticate, requirePermission("riders:manage"), adminAssignOrder);
 
 export default router;

@@ -437,3 +437,677 @@
 {"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:58:59"}
 {"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:58:59"}
 {"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:58:59"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-19 22:59:25"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-19 22:59:25"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-19 22:59:26"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-19 22:59:26"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-19 22:59:26"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 19:42:23"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 19:42:23"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 19:42:24"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 19:42:24"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 19:42:24"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 19:56:26"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 19:56:26"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 19:56:28"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 19:56:28"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 19:56:28"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 19:56:49"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 19:56:49"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 19:56:50"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 19:56:50"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 19:56:50"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 19:57:08"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 19:57:08"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 19:57:09"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 19:57:09"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 19:57:09"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 19:57:20"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 19:57:20"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 19:57:22"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 19:57:22"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 19:57:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:00:55"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:00:55"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:00:59"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:00:59"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:00:59"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:01:05"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:01:05"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:01:08"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:01:09"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:01:09"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:01:15"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:01:15"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:01:17"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:01:17"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:01:17"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:05:54"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:08:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:08:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:08:47"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:08:47"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:08:47"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:08:52"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:08:52"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:08:54"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:08:55"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:08:55"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:09:07"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:09:07"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:09:09"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:09:09"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:09:09"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:36:04"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 20:40:17"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 20:40:17"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 20:40:20"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 20:40:20"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 20:40:20"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:43:48"}
+{"level":"info","message":"Order ORD81338927Y3K2LDWD assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-20 20:44:38"}
+{"level":"info","message":"Order ORD46167424AFA4B59T assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-20 20:44:40"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:51:15"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:53:24"}
+{"level":"info","message":"Payment collected for order ORD46167424AFA4B59T: cash by rider 6a33343a6453cf6bfe09edab","service":"rider-service","timestamp":"2026-06-20 20:54:51"}
+{"level":"info","message":"Delivery OTP generated for order: 6a17d2b7fc4a4820f656b72c","service":"rider-service","timestamp":"2026-06-20 20:54:54"}
+{"level":"info","message":"Delivery OTP email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:54:54"}
+{"level":"info","message":"Delivery OTP verified successfully for order: 6a17d2b7fc4a4820f656b72c","service":"rider-service","timestamp":"2026-06-20 20:55:21"}
+{"level":"info","message":"Delivery confirmed email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-20 20:55:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 21:00:26"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 21:00:26"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 21:00:28"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 21:00:28"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 21:00:28"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:01:51"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:01:51"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:03:35"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:03:37"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:12:44"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:12:44"}
+{"level":"info","message":"OTP verified successfully for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 21:13:02"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:10:03"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:10:03"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:19:26"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:19:26"}
+{"level":"info","message":"OTP generated for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:30:29"}
+{"level":"info","message":"OTP email queued for rider: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:30:29"}
+{"level":"info","message":"OTP verified successfully for rider email: osandeepji@gmail.com","service":"rider-service","timestamp":"2026-06-20 22:30:43"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 22:32:15"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 22:32:15"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 22:32:17"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 22:32:17"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 22:32:17"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 22:46:41"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 22:46:41"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 22:46:43"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 22:46:43"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 22:46:43"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 22:46:47"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 22:46:47"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 22:46:49"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 22:46:49"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 22:46:49"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 22:47:37"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 22:47:37"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 22:47:38"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 22:47:38"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 22:47:38"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 22:56:09"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 22:56:09"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 22:56:11"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 22:56:11"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 22:56:11"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 23:10:31"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 23:10:31"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 23:10:33"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 23:10:33"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 23:10:33"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 23:10:42"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 23:10:43"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 23:10:44"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 23:10:44"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 23:10:44"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 23:25:25"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 23:25:25"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 23:25:27"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 23:25:27"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 23:25:27"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-20 23:25:37"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-20 23:25:37"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-20 23:25:39"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-20 23:25:39"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-20 23:25:39"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 07:54:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 07:54:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 07:54:48"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 07:54:48"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 07:54:48"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 08:07:18"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 08:07:18"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 08:07:22"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 08:07:22"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 08:07:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 08:07:26"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 08:07:26"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 08:07:28"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 08:07:28"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 08:07:28"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 08:07:32"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 08:07:33"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 08:07:34"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 08:07:34"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 08:07:34"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 10:03:38"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 10:03:38"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 10:03:39"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 10:03:39"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 10:03:39"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 10:16:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 10:16:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 10:16:46"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 10:16:46"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 10:16:46"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 10:16:54"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 10:16:54"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 10:16:55"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 10:16:55"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 10:16:55"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 10:17:01"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 10:17:01"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 10:17:01"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 10:17:01"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 10:17:01"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 10:18:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 10:18:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 10:18:45"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 10:18:45"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 10:18:45"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:19:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:19:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:19:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:19:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:31"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:32"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:32"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:32"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:33"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:34"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:41"}
+{"level":"warn","message":"No tracking found for order 6a230a7a0557bf8bd3dfd062 to notify","service":"rider-service","timestamp":"2026-06-21 10:22:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:45"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:45"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:45"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:46"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:56"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:22:57"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:23:02"}
+{"level":"warn","message":"No tracking found for order 6a230a7a0557bf8bd3dfd062 to notify","service":"rider-service","timestamp":"2026-06-21 10:23:02"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-21 10:23:02"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 10:23:02"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-21 11:26:29"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:27:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:27:41"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:28:50"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:28:50"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:28:52"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:28:52"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:28:56"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:28:56"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:28:57"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:28:57"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:29:19"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:29:19"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:29:20"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:29:20"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 11:29:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:30:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:30:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:19"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:24"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:24"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:26"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:26"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:32"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:32"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:33"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:33"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:35"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:35"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:35"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:33:35"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:37:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:37:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:37:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:37:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:38:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:38:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:38:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:38:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:38:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:38:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:39:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:39:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:39:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:39:40"}
+{"level":"info","message":"Order ORD791180587A3XUKM8 assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-21 11:39:50"}
+{"level":"info","message":"Order ORD78779229KFQQCNPH assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-21 11:39:52"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:39:54"}
+{"level":"info","message":"Order ORD35968477JJXUBKF7 assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-21 11:39:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:00"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:00"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:01"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:01"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:01"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:01"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:02"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:03"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:40:04"}
+{"level":"warn","message":"No tracking found for order 6a17aae0c048cfff7b70881e — auto-creating","service":"rider-service","timestamp":"2026-06-21 11:40:04"}
+{"level":"info","message":"Auto-created tracking for order 6a17aae0c048cfff7b70881e","service":"rider-service","timestamp":"2026-06-21 11:40:04"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-21 11:40:53"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:41:39"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:41:39"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:41:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:41:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:42:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:42:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:42:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:42:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:43:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:43:10"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:43:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:43:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:44:13"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:44:13"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:44:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:44:40"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:45:31"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:45:31"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:45:34"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:45:34"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:45:45"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:45:45"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:46:21"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:46:21"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:46:22"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:46:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:46:29"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:46:29"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:46:30"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:46:30"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:46:46"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:46:46"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 11:46:51"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 11:46:51"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 11:46:52"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 11:46:52"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 11:46:52"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:47:47"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:47:47"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:48:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:48:48"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:49:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:49:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:49:17"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:49:17"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:49:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:49:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:50:04"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:50:04"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:50:04"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:50:04"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:06"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:06"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:07"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:07"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:17"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:17"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:51:18"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-21 11:51:29"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:19"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:19"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:31"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:31"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:32"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 11:52:32"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-21 11:54:53"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-21 13:23:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:29:37"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:29:37"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:29:38"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:29:38"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:29:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:29:41"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:30:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:30:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:30:42"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:30:42"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:31:12"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:31:12"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 13:31:16"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 13:31:16"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 13:31:18"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 13:31:18"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:31:42"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:31:42"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:31:49"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:31:49"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:32:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:32:20"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 13:32:38"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 13:32:38"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 13:32:40"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 13:32:40"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 13:32:40"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:32:50"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:32:50"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:33:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:33:20"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:33:46"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:33:46"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:33:47"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:33:47"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:40:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:40:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:40:23"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:40:23"}
+{"level":"info","message":"Out for delivery email queued for: openlife276@gmail.com","service":"rider-service","timestamp":"2026-06-21 13:41:19"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:43:29"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:43:29"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:43:29"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:43:29"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:43:32"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:43:32"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:43:32"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:43:32"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:43:51"}
+{"level":"info","message":"Order ORD15611486AHF323YP assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-21 13:43:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:43:53"}
+{"level":"info","message":"Order ORD956877209ZR1YCA1 assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-21 13:43:53"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:00"}
+{"level":"info","message":"Order ORD96122884K8P8U48E assigned to rider sabdeeo","service":"rider-service","timestamp":"2026-06-21 13:44:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:02"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:44:02"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:44:02"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:44:02"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:44:02"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:44:15"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:16"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:16"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:17"}
+{"level":"warn","message":"No tracking found for order 6a170f3a51aa407913ac0170 — auto-creating","service":"rider-service","timestamp":"2026-06-21 13:44:17"}
+{"level":"warn","message":"createTrackingForOrder error for order 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:17"}
+{"level":"warn","message":"Failed to auto-create tracking for order 6a170f3a51aa407913ac0170","service":"rider-service","timestamp":"2026-06-21 13:44:17"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:18"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:44:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:44:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:44:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:44:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:44:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:44:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:45:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:45:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:45:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:45:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:45:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:45:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:45:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:45:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:45:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:45:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:46:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:46:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:46:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:46:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:46:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:46:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:46:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:46:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:46:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:46:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:47:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:47:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:47:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:47:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:47:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:47:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:47:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:47:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:47:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:47:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:48:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:48:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:48:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:48:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:48:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:48:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:48:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:48:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:48:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:48:51"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:25"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:25"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:25"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:25"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:25"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:53"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:49:54"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 13:50:37"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 13:50:37"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 13:50:38"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 13:50:38"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 13:50:49"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 13:50:49"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 13:50:50"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 13:50:50"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:55"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:55"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:55"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:55"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:50:59"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 13:51:02"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 13:51:02"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 13:51:04"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 13:51:04"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:27"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:56"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:56"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:56"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:56"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:51:56"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:21"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:58"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:58"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:58"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:59"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:52:59"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:51"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:51"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:51"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:51"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:53:51"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:54:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:54:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:54:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:54:22"}
+{"level":"warn","message":"fetchTrackingByOrderId returned 404: {\"success\":false,\"message\":\"No tracking found for this order\"}","service":"rider-service","timestamp":"2026-06-21 13:54:22"}
+{"level":"info","message":"Redis connected","service":"rider-service","timestamp":"2026-06-21 13:54:45"}
+{"level":"info","message":"Redis ready","service":"rider-service","timestamp":"2026-06-21 13:54:45"}
+{"level":"info","message":"MongoDB connected","service":"rider-service","timestamp":"2026-06-21 13:54:46"}
+{"level":"info","message":"RabbitMQ connected","service":"rider-service","timestamp":"2026-06-21 13:54:46"}
+{"level":"info","message":"Rider service running on port 7011","service":"rider-service","timestamp":"2026-06-21 13:54:46"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:54:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:54:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:54:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:54:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:54:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:55:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:55:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:55:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:55:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:55:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:55:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:55:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:55:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:55:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:55:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:56:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:56:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:56:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:56:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:56:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:56:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:56:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:56:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:56:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:56:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:57:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:57:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:57:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:57:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:57:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:57:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:57:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:57:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:57:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:57:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:58:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:58:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:58:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:58:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:58:21"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:58:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:58:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:58:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:58:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:58:51"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 13:59:52"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 13:59:52"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 13:59:52"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 13:59:52"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 13:59:52"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:00:53"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:00:53"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:00:53"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:00:53"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:00:53"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:01:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:01:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:01:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:01:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:01:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:03:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:03:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:03:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:03:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:03:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:03:56"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:03:56"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:03:56"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:03:56"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:03:56"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:04:57"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:04:57"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:04:57"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:04:57"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:04:57"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:05:58"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:05:58"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:05:58"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:05:58"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:05:58"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:06:59"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:06:59"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:06:59"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:06:59"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:06:59"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:08:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:08:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:08:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:08:00"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:08:00"}
+{"level":"warn","message":"Mongoose disconnected from MongoDB","service":"rider-service","timestamp":"2026-06-21 14:25:39"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:25:54"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:25:55"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170f3a51aa407913ac0170:","service":"rider-service","timestamp":"2026-06-21 14:25:55"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a15d4bb7426ee299cc8ef68:","service":"rider-service","timestamp":"2026-06-21 14:25:55"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a230a7a0557bf8bd3dfd062:","service":"rider-service","timestamp":"2026-06-21 14:25:55"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170781b42263a8b79c68b6:","service":"rider-service","timestamp":"2026-06-21 14:25:55"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:26:13"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:26:14"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:26:19"}
+{"level":"warn","message":"No tracking found for order 6a170d87b42263a8b79c68cd — auto-creating","service":"rider-service","timestamp":"2026-06-21 14:26:19"}
+{"level":"warn","message":"createTrackingForOrder error for order 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:26:19"}
+{"level":"warn","message":"Failed to auto-create tracking for order 6a170d87b42263a8b79c68cd","service":"rider-service","timestamp":"2026-06-21 14:26:19"}
+{"level":"warn","message":"fetchTrackingByOrderId error for 6a170d87b42263a8b79c68cd:","service":"rider-service","timestamp":"2026-06-21 14:26:19"}
+{"level":"warn","message":"Redis error:","service":"rider-service","timestamp":"2026-06-21 15:36:43"}
