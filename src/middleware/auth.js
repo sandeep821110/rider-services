@@ -1,6 +1,22 @@
 import jwt from "jsonwebtoken";
+import crypto from "crypto";
 import config from "../config/config.js";
 import logger from "../utils/logger.js";
+
+export const verifyInternalToken = (req, res, next) => {
+  const expected = (process.env.INTERNAL_API_SECRET || "").trim();
+  if (!expected) {
+    return res.status(503).json({ success: false, message: "Internal API not configured" });
+  }
+  const provided = req.headers["x-internal-token"] || "";
+  const a = Buffer.from(String(provided));
+  const b = Buffer.from(String(expected));
+  const match = a.length === b.length && crypto.timingSafeEqual(a, b);
+  if (!match) {
+    return res.status(403).json({ success: false, message: "Forbidden" });
+  }
+  next();
+};
 
 export const authenticate = (req, res, next) => {
   try {
@@ -12,8 +28,8 @@ export const authenticate = (req, res, next) => {
     const token = auth.split(" ")[1];
     const decoded = jwt.verify(token, config.jwtSecret);
     const validLevels = ["superadmin", "manager", "support"];
-    const rawLevel = decoded.adminLevel || "superadmin";
-    const adminLevel = validLevels.includes(rawLevel) ? rawLevel : "superadmin";
+    const rawLevel = decoded.adminLevel;
+    const adminLevel = validLevels.includes(rawLevel) ? rawLevel : null;
     const validStatuses = ["active", "inactive", "suspended", "pending"];
     const rawStatus = decoded.status || "active";
     const status = validStatuses.includes(rawStatus) ? rawStatus : "active";

@@ -35,3 +35,9 @@ coverage/
 .cache/
 temp/
 tmp/
+
+# Logs (may contain PII)
+*.log
+*.err
+logs/
+src/logs/

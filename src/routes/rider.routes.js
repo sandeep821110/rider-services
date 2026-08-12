@@ -21,10 +21,14 @@ import {
   riderGeneratePaymentLink,
   riderVerifyPayment,
   riderCancelDelivery,
+  checkRiderAssigned,
 } from "../controllers/rider.controller.js";
-import { authenticate, requirePermission } from "../middleware/auth.js";
+import { authenticate, requirePermission, verifyInternalToken } from "../middleware/auth.js";
 
 const router = express.Router();
+
+// Internal routes (used by the tracking service to authorize rider tracking reads)
+router.get("/internal/orders/:orderId/assigned/:riderId", verifyInternalToken, checkRiderAssigned);
 
 // Public routes
 router.post("/send-otp", riderSendOTP);

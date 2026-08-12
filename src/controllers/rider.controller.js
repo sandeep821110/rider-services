@@ -12,7 +12,13 @@ const fetchTrackingByOrderId = async (orderId) => {
   if (!orderId) return null;
   try {
     const url = `${config.trackingServiceURL}/api/tracking/internal/by-order-id/${orderId}`;
-    const res = await fetch(url, { headers: { "Content-Type": "application/json" } });
+    const res = await fetch(url, {
+      headers: {
+        "Content-Type": "application/json",
+        "x-internal-token": process.env.INTERNAL_API_SECRET || "",
+      },
+      signal: AbortSignal.timeout(5000),
+    });
     if (!res.ok) {
       const errBody = await res.text();
       logger.warn(`fetchTrackingByOrderId returned ${res.status}: ${errBody}`);
@@ -32,12 +38,40 @@ const NOTIFY_TRACKING_STATUS_MAP = {
   delivered: "delivered",
 };
 
+const notifyOrderService = async (orderId, status) => {
+  try {
+    const url = `${config.orderServiceURL}/api/orders/internal/${orderId}/rider-status`;
+    const resp = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-internal-token": process.env.INTERNAL_API_SECRET || "",
+      },
+      body: JSON.stringify({ status }),
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!resp.ok) {
+      const errBody = await resp.text();
+      logger.warn(`Order service status update rejected (${resp.status}) for order ${orderId}: ${errBody}`);
+      return false;
+    }
+    logger.info(`Order service notified of rider status "${status}" for order ${orderId}`);
+    return true;
+  } catch (err) {
+    logger.warn(`Order service status update error for order ${orderId}:`, err.message);
+    return false;
+  }
+};
+
 const createTrackingForOrder = async (order) => {
   try {
     const url = `${config.trackingServiceURL}/api/tracking/internal/create-from-order`;
     const resp = await fetch(url, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "x-internal-token": process.env.INTERNAL_API_SECRET || "",
+      },
       body: JSON.stringify({
         orderId: order._id,
         orderNumber: order.orderNumber || order.orderId,
@@ -80,7 +114,10 @@ const notifyTrackingService = async (order, riderStatus) => {
     const url = `${config.trackingServiceURL}/api/tracking/internal/by-tracking-number/${tracking.trackingNumber}/status`;
     const resp = await fetch(url, {
       method: "PUT",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "x-internal-token": process.env.INTERNAL_API_SECRET || "",
+      },
       body: JSON.stringify({ status: trackingStatus }),
       signal: AbortSignal.timeout(5000),
     });
@@ -95,10 +132,16 @@ const notifyTrackingService = async (order, riderStatus) => {
   }
 };
 
-const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_KEY_SECRET,
-});
+let razorpayClient;
+const getRazorpay = () => {
+  if (!razorpayClient) {
+    razorpayClient = new Razorpay({
+      key_id: process.env.RAZORPAY_KEY_ID,
+      key_secret: process.env.RAZORPAY_KEY_SECRET,
+    });
+  }
+  return razorpayClient;
+};
 
 const generateToken = (rider) => {
   return jwt.sign(
@@ -122,7 +165,7 @@ const extractToken = (req) => {
   return null;
 };
 
-export const authenticateRider = (req, res, next) => {
+export const authenticateRider = async (req, res, next) => {
   try {
     const token = extractToken(req);
     if (!token) {
@@ -132,6 +175,21 @@ export const authenticateRider = (req, res, next) => {
     if (decoded.purpose) {
       return res.status(401).json({ success: false, message: "Complete your profile first" });
     }
+
+    const rider = await Rider.findById(decoded.id).select("isActive status isApproved");
+    if (!rider) {
+      return res.status(401).json({ success: false, message: "Rider account no longer exists" });
+    }
+    if (!rider.isActive) {
+      return res.status(403).json({ success: false, message: "Account is deactivated. Contact admin." });
+    }
+    if (rider.status === "suspended" || rider.status === "rejected") {
+      return res.status(403).json({ success: false, message: `Account is ${rider.status}. Contact admin.` });
+    }
+    if (rider.status === "pending" || !rider.isApproved) {
+      return res.status(403).json({ success: false, message: "Account pending approval." });
+    }
+
     req.rider = { id: decoded.id, email: decoded.email };
     next();
   } catch (err) {
@@ -155,14 +213,6 @@ export const riderSendOTP = async (req, res) => {
     const riderName = rider?.name || "Rider";
 
     const emailSent = await sendOTPEmail({ email: normalizedEmail, name: riderName, otp });
-
-    if (process.env.NODE_ENV !== "production") {
-      return res.json({
-        success: true,
-        message: emailSent ? "OTP sent to email" : "OTP generated for testing (email unavailable)",
-        otp_for_testing: otp,
-      });
-    }
 
     if (!emailSent) {
       return res.status(500).json({ success: false, message: "Failed to send OTP email. Please try again." });
@@ -195,6 +245,9 @@ export const riderVerifyOTP = async (req, res) => {
     if (rider) {
       if (!rider.isActive) {
         return res.status(403).json({ success: false, message: "Account is deactivated. Contact admin." });
+      }
+      if (rider.status === "suspended" || rider.status === "rejected") {
+        return res.status(403).json({ success: false, message: `Account is ${rider.status}. Contact admin.` });
       }
 
       const token = generateToken(rider);
@@ -482,6 +535,20 @@ export const riderGetMyOrders = async (req, res) => {
   }
 };
 
+export const checkRiderAssigned = async (req, res) => {
+  try {
+    const { orderId, riderId } = req.params;
+    if (!orderId || !riderId) {
+      return res.status(400).json({ success: false, message: "orderId and riderId are required" });
+    }
+    const order = await Order.findOne({ _id: orderId, assignedRider: riderId }).select("_id");
+    return res.json({ success: true, data: { assigned: !!order } });
+  } catch (err) {
+    logger.error("Check rider assigned error:", err);
+    return res.status(500).json({ success: false, message: "Failed to check rider assignment" });
+  }
+};
+
 export const riderGetOrderDetail = async (req, res) => {
   try {
     const riderId = req.rider.id;
@@ -605,6 +672,8 @@ export const riderUpdateDeliveryStatus = async (req, res) => {
 
     await order.save();
 
+    await notifyOrderService(order._id, status);
+
     res.json({
       success: true,
       message: `Order status updated to ${status}`,
@@ -644,7 +713,7 @@ export const adminAssignOrder = async (req, res) => {
       return res.status(404).json({ success: false, message: "Order not found" });
     }
 
-    if (order.riderStatus !== "unassigned") {
+    if (order.riderStatus && order.riderStatus !== "unassigned") {
       return res.status(400).json({ success: false, message: "Order already assigned to a rider" });
     }
 
@@ -702,14 +771,6 @@ export const riderRequestDeliveryOtp = async (req, res) => {
       customerName: order.shippingAddress?.fullName || "Customer",
     });
 
-    if (process.env.NODE_ENV !== "production") {
-      return res.json({
-        success: true,
-        message: emailSent ? "Delivery OTP sent to customer" : "Delivery OTP generated for testing",
-        otp_for_testing: otp,
-      });
-    }
-
     if (!emailSent) {
       return res.status(500).json({ success: false, message: "Failed to send delivery OTP email" });
     }
@@ -750,6 +811,8 @@ export const riderVerifyDeliveryOtp = async (req, res) => {
     order.deliveryMethod = "otp";
     order.deliveredAt = new Date();
     await order.save();
+
+    await notifyOrderService(order._id, "delivered");
 
     await Rider.findByIdAndUpdate(riderId, { $inc: { totalDeliveries: 1 } });
 
@@ -807,6 +870,8 @@ export const riderDeliverWithSignature = async (req, res) => {
     order.deliveredAt = new Date();
     await order.save();
 
+    await notifyOrderService(order._id, "delivered");
+
     await Rider.findByIdAndUpdate(riderId, { $inc: { totalDeliveries: 1 } });
 
     sendDeliveryConfirmedEmail({
@@ -855,6 +920,13 @@ export const riderGeneratePaymentLink = async (req, res) => {
       return res.status(400).json({ success: false, message: "Payment already collected" });
     }
 
+    if (!process.env.RAZORPAY_KEY_ID || !process.env.RAZORPAY_KEY_SECRET) {
+      return res.status(503).json({
+        success: false,
+        message: "Razorpay is not configured for rider payments. Contact admin.",
+      });
+    }
+
     const amountInPaise = Math.round((order.totalAmount || 0) * 100);
     if (amountInPaise <= 0) {
       return res.status(400).json({ success: false, message: "Invalid order amount" });
@@ -864,7 +936,7 @@ export const riderGeneratePaymentLink = async (req, res) => {
     const customerEmail = order.shippingAddress?.email || "";
     const customerPhone = order.shippingAddress?.phoneNumber || order.shippingAddress?.phone || "";
 
-    const razorpayOrder = await razorpay.orders.create({
+    const razorpayOrder = await getRazorpay().orders.create({
       amount: amountInPaise,
       currency: "INR",
       receipt: order._id.toString(),
@@ -876,6 +948,9 @@ export const riderGeneratePaymentLink = async (req, res) => {
     });
 
     logger.info(`Razorpay order created for order ${order.orderNumber}: ${razorpayOrder.id}`);
+
+    order.razorpayOrderId = razorpayOrder.id;
+    await order.save();
 
     res.json({
       success: true,
@@ -904,6 +979,15 @@ export const riderVerifyPayment = async (req, res) => {
       return res.status(400).json({ success: false, message: "Missing payment verification details" });
     }
 
+    const order = await Order.findOne({ _id: orderId, assignedRider: riderId });
+    if (!order) {
+      return res.status(404).json({ success: false, message: "Order not found or not assigned to you" });
+    }
+
+    if (order.razorpayOrderId && order.razorpayOrderId !== razorpay_order_id) {
+      return res.status(400).json({ success: false, message: "Razorpay order does not match this order" });
+    }
+
     const body = razorpay_order_id + "|" + razorpay_payment_id;
     const expectedSignature = crypto
       .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)
@@ -914,11 +998,7 @@ export const riderVerifyPayment = async (req, res) => {
       return res.status(400).json({ success: false, message: "Payment verification failed. Invalid signature." });
     }
 
-    const order = await Order.findOne({ _id: orderId, assignedRider: riderId });
-    if (!order) {
-      return res.status(404).json({ success: false, message: "Order not found or not assigned to you" });
-    }
-
+    order.razorpayOrderId = razorpay_order_id;
     order.paymentStatus = "PAID";
     order.paidVia = "online";
     order.paidAt = new Date();
@@ -1016,12 +1096,15 @@ export const riderUpdateLocation = async (req, res) => {
 
 const deleteTrackingForOrder = async (orderId, trackingNumber) => {
   try {
+    const headers = {
+      "x-internal-token": process.env.INTERNAL_API_SECRET || "",
+    };
     if (trackingNumber) {
       const url = `${config.trackingServiceURL}/api/tracking/internal/by-tracking-number/${trackingNumber}`;
-      await fetch(url, { method: "DELETE", signal: AbortSignal.timeout(5000) });
+      await fetch(url, { method: "DELETE", headers, signal: AbortSignal.timeout(5000) });
     } else {
       const url = `${config.trackingServiceURL}/api/tracking/internal/by-order-id/${orderId}`;
-      await fetch(url, { method: "DELETE", signal: AbortSignal.timeout(5000) });
+      await fetch(url, { method: "DELETE", headers, signal: AbortSignal.timeout(5000) });
     }
   } catch (err) {
     logger.warn(`deleteTrackingForOrder error for ${orderId}:`, err.message);

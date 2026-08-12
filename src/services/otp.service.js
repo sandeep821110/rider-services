@@ -1,3 +1,4 @@
+import crypto from "crypto";
 import redis from "../config/redis.js";
 import logger from "../utils/logger.js";
 
@@ -64,9 +65,11 @@ const expireKey = async (key) => {
   }
 };
 
+const generateSixDigitOTP = () => crypto.randomInt(100000, 1000000).toString();
+
 export const generateOTP = async (email) => {
   try {
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    const otp = generateSixDigitOTP();
     await setOTP(`rider_otp:${email}`, otp);
     logger.info(`OTP generated for rider email: ${email}`);
     return otp;
@@ -114,7 +117,7 @@ export const verifyOTP = async (email, otp) => {
 
 export const generateDeliveryOTP = async (orderId) => {
   try {
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    const otp = generateSixDigitOTP();
     await setOTP(`delivery_otp:${orderId}`, otp);
     logger.info(`Delivery OTP generated for order: ${orderId}`);
     return otp;

@@ -3,7 +3,9 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: path.resolve(__dirname, "../../.env") });
+if (process.env.NODE_ENV !== "test") {
+  dotenv.config({ path: path.resolve(__dirname, "../../.env") });
+}
 
 const config = {
   env: process.env.NODE_ENV || "development",
@@ -12,7 +14,8 @@ const config = {
   redisURL: process.env.REDIS_URL,
   rabbitmqURL: process.env.RABBITMQ_URL,
   trackingServiceURL: process.env.TRACKING_SERVICE_URL || "http://localhost:2010",
-  jwtSecret: process.env.JWT_ACCESS_SECRET || process.env.JWT_SECRET || "rider-secret-key",
+  orderServiceURL: process.env.ORDER_SERVICE_URL || "http://localhost:7000",
+  jwtSecret: process.env.JWT_ACCESS_SECRET || process.env.JWT_SECRET,
   jwtExpiry: process.env.JWT_RIDER_EXPIRY || "7d",
   emailUser: process.env.EMAIL_USER || process.env.EMAIL,
   emailPass: process.env.EMAIL_PASS,
@@ -20,7 +23,7 @@ const config = {
   baseUrl: process.env.BASE_URL || process.env.FRONTEND_URL || "https://choosemood.com",
 };
 
-const requiredConfigs = ["mongoURI"];
+const requiredConfigs = ["mongoURI", "jwtSecret"];
 const missingConfigs = requiredConfigs.filter((key) => !config[key]);
 
 if (missingConfigs.length > 0) {
